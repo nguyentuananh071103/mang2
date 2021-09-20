@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [2, 5, 8 ,4, 13, 15]
+    let max = 0
+    let sum = 0
+    for(let i= 0; i<arr.length ; i++){
+        if(arr[i] > max){
+            max = arr[i]
+            sum = sum + i
+        }
+    }
+    sum / arr.length
+    document.write("giá trị lớn nhất là:" + max + " TB : " + sum )
+</script>
+</body>
+</html>
